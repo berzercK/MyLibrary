@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact name="MyLibrary:GWT">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyLibrary_GWT</output-path>
+    <root id="root">
+      <element id="gwt-compiler-output" facet="MyLibrary/gwt/GWT" />
+      <element id="module-output" name="MyLibrary" />
+      <element id="library" level="project" name="gwt-user" />
+      <element id="javaee-facet-resources" facet="MyLibrary/web/Web" />
+      <element id="directory" name="VAADIN">
+        <element id="directory" name="widgetsets">
+          <element id="gwt-compiler-output" facet="MyLibrary/gwt/GWT" />
+        </element>
+      </element>
+      <element id="artifact" artifact-name="MyLibrary:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyLibrary:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyLibrary_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyLibrary" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="gwt-user" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../WEB/gwt-2.8.2/gwt-servlet.jar" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="MyLibrary/gwt/GWT" />
+      <element id="directory" name="VAADIN">
+        <element id="directory" name="widgetsets">
+          <element id="gwt-compiler-output" facet="MyLibrary/gwt/GWT" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="MyLibrary/web/Web" />
+      <element id="artifact" artifact-name="MyLibrary:GWT" />
+    </root>
+  </artifact>
+</component>

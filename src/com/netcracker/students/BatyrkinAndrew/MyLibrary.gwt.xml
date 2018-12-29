@@ -1,0 +1,17 @@
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.8.0//EN"
+        "http://gwtproject.org/doctype/2.8.0/gwt-module.dtd">
+<module rename-to="LibModule">
+
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name="com.google.gwt.user.theme.standard.Standard" />
+
+    <entry-point class='com.netcracker.students.BatyrkinAndrew.client.MyLibrary'/>
+    <servlet path="/GetTableService"    class="com.netcracker.students.BatyrkinAndrew.server.GetTableServiceImplement"/>
+    <servlet path="/AddNewBookService"  class="com.netcracker.students.BatyrkinAndrew.server.AddNewBookServiceImplement"/>
+    <servlet path="/DeleteBookService"  class="com.netcracker.students.BatyrkinAndrew.server.DeleteBookServiceImplement"/>
+    <servlet path="/SortByTitleService" class="com.netcracker.students.BatyrkinAndrew.server.SortByTitleServiceImplement"/>
+
+    <source path='client'/>
+    <source path='shared'/>
+
+</module>
